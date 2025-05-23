@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Fira+Mono&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #d0e8f2; /* pastel blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fira Mono', monospace;
+}
+
+.clock-box {
+    background-color: #97bfdf;
+    padding: 40px 60px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 40px rgba(125, 178, 214, 0.6);
+}
+
+#time {
+    font-size: 4rem;
+    color: #ffffff;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+    margin-bottom: 10px;
+}
+
+#date {
+    font-size: 1.25rem;
+    color: #ffffff;
+    text-shadow: 0 0 6px #ffffff;
+}
+
+@media (max-width: 600px) {
+    .clock-box {
+        padding: 25px 30px;
+    }
+
+    #time {
+        font-size: 2.8rem;
+    }
+
+    #date {
+        font-size: 1rem;
+    }
+}
